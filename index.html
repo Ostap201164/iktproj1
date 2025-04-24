@@ -5,18 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.cdnfonts.com/css/be-vietnam-pro" rel="stylesheet">
+    <link rel="stylesheet" href="./colors.css">
 </head>
 
 <body>
-    <header>
-        <button class="tob-baner">Free Courses 🌟 Sale Ends Soon, Get It Now<svg>
+    <header class="header">
+        <button class="tob-baner">Free Courses 🌟 Sale Ends Soon, Get It Now<svg class="top-baner-icon">
                 <use href="./img/svg/symbol-defs.svg#icon-strilka" />
             </svg></button>
         <div class="header-container">
-            <div class="imgcontainer-logo"><svg>
-                    <use href="./img/svg/symbol-defs.svg#icon-logo390" />
-                </svg></div>
-            <nav>
+            <div  class="imgcontainer-logo"><a href="/index.html"><svg class="logo">
+                    <use class="" href="./img/svg/symbol-defs.svg#icon-logo390" />
+                </svg></a></div>
+            <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-list-item"><a class="nav-list-item-btn" href="./index.html">Home</a>
                     </li>
@@ -29,24 +33,25 @@
                 </ul>
             </nav>
             <div class="header-btncontainer">
-                <a class="header-btncontainer-item-singin">Sing in</a>
-                <a class="header-btncontainer-item-login">Login</a>
-            </div>
-            <a href="./index.html">
+                <a href="" class="header-btncontainer-item-singin">Sing in</a>
+                <a href="" class="header-btncontainer-item-login">Login</a>
+                            <a href="">
                 <svg class="burger-menu">
                     <use href="./img/svg/symbol-defs.svg#icon-burger390" />
                 </svg>
+            </div>
+
             </a>
         </div>
     </header>
     <main>
-        <svg class="Abstract390-img">
+        <!-- <svg class="Abstract390-img">
             <use href="./img/svg/symbol-defs.svg#icon-Abstract390" />
-        </svg>
+        </svg>-->
         <section class="hero">
             <div class="hero-subcontainer">
                 <div class="hero-subcontainer-itemIMG">
-                    <svg>
+                    <svg class="hero-subcontainer-itemIMG-icon">
                         <use href="./img/svg/symbol-defs.svg#icon-lightnin390" />
                     </svg>
                 </div>
@@ -61,54 +66,56 @@
                 <button class="hero-btn-container-item-ViewPricing">View Pricing</button>
             </div>
         </section>
-        <ul class="main-logotips">
-            <li class="main-logotips-zaiper">
-                <picture class="main-logotips-zaiper-pic">
-                    <source media="(min-width:390px)" srcset="./img/zaiper-390-1x.webp 1x, ./img/zaiper-390-2x.webp 2x"
-                        type="image/webp">
-                    <source media="(min-width:390px)" srcset="./img/zaiper-390-1x.avif 1x, ./img/zaiper-390-2x.avif 2x"
-                        type="image/avif">
-                    <img src="./img/zaiper-390-1x.jpg" alt="">
-                </picture>
-            </li>
-            <li class="main-logotips-spotify">
-                <picture class="main-logotips-spotify-pic">
-                    <source media="(min-width:390px)"
-                        srcset="./img/spotify-390-1x.webp 1x, ./img/spotify-390-2x.webp 2x" type="image/webp">
-                    <source media="(min-width:390px)"
-                        srcset="./img/spotify-390-1x.avif 1x, ./img/spotify-390-2x.avif 2x" type="image/avif">
-                    <img src="./img/spotify-390-1x.jpg" alt="">
-                </picture>
-            </li>
-            <li class="main-logotips-zoom">
-                <picture class="main-logotips-zoom-pic">
-                    <source media="(min-width:390px)" srcset="./img/zoom-390-1x.webp 1x, ./img/zoom-390-2x.webp 2x"
-                        type="image/webp">
-                    <source media="(min-width:390px)" srcset="./img/zoom-390-1x.avif 1x, ./img/zoom-390-2x.avif 2x"
-                        type="image/avif">
-                    <img src="./img/zoom-390-1x.jpg" alt="">
-                </picture>
-            </li>
-            <li class="main-logotips-amazon">
+        <section>
+            <ul class="main-logotips">
+                <li class="main-logotips-zaiper">
+                    <picture class="main-logotips-zaiper-pic">
+                        <source media="(min-width:390px)"
+                            srcset="./img/zaiper-390-1x.webp 1x, ./img/zaiper-390-2x.webp 2x" type="image/webp">
+                        <source media="(min-width:390px)"
+                            srcset="./img/zaiper-390-1x.avif 1x, ./img/zaiper-390-2x.avif 2x" type="image/avif">
+                        <img src="./img/zaiper-390-1x.jpg" alt="">
+                    </picture>
+                </li>
+                <li class="main-logotips-spotify">
+                    <picture class="main-logotips-spotify-pic">
+                        <source media="(min-width:390px)"
+                            srcset="./img/spotify-390-1x.webp 1x, ./img/spotify-390-2x.webp 2x" type="image/webp">
+                        <source media="(min-width:390px)"
+                            srcset="./img/spotify-390-1x.avif 1x, ./img/spotify-390-2x.avif 2x" type="image/avif">
+                        <img src="./img/spotify-390-1x.jpg" alt="">
+                    </picture>
+                </li>
+                <li class="main-logotips-zoom">
+                    <picture class="main-logotips-zoom-pic">
+                        <source media="(min-width:390px)" srcset="./img/zoom-390-1x.webp 1x, ./img/zoom-390-2x.webp 2x"
+                            type="image/webp">
+                        <source media="(min-width:390px)" srcset="./img/zoom-390-1x.avif 1x, ./img/zoom-390-2x.avif 2x"
+                            type="image/avif">
+                        <img src="./img/zoom-390-1x.jpg" alt="">
+                    </picture>
+                </li>
+                <li class="main-logotips-amazon">
 
-            </li>
-            <li class="main-logotips-adobe">
+                </li>
+                <li class="main-logotips-adobe">
 
-            </li>
-            <li class="main-logotips-notion">
+                </li>
+                <li class="main-logotips-notion">
 
-            </li>
-            <li class="main-logotips-netflix">
+                </li>
+                <li class="main-logotips-netflix">
 
-            </li>
-        </ul>
-        <picture class="main-picture">
-            <source media="(min-width:390)" srcset="./img/Container-390-1x.webp 1x, ./img/Container-390-2x.webp 2x"
-                type="image/webp">
-            <source media="(min-width:390)" srcset="./img/Container-390-1x.avif 1x, ./img/Container-390-2x.avif 2x"
-                type="image/avif">
-            <img src="./img/Container-390-1x.jpg" alt="">
-        </picture>
+                </li>
+            </ul>
+            <picture class="main-picture">
+                <source media="(min-width:390)" srcset="./img/Container-390-1x.webp 1x, ./img/Container-390-2x.webp 2x"
+                    type="image/webp">
+                <source media="(min-width:390)" srcset="./img/Container-390-1x.avif 1x, ./img/Container-390-2x.avif 2x"
+                    type="image/avif">
+                <img src="./img/Container-390-1x.jpg" alt="">
+            </picture>
+        </section>
         <section class="benefits">
             <div class="text-and-viewall-btn">
                 <h2 class="text-and-viewall-btn-h2">Benefits</h2>
@@ -726,9 +733,9 @@
     </main>
     <footer>
         <div class="footer-container">
-            <div class="footer-imgcontainer-logo"><svg>
+            <a href="./index.html" class="footer-imgcontainer-logo"><svg>
                     <use href="./img/svg/symbol-defs.svg#icon-logo390" />
-                </svg></div>
+                </svg></a>
             <ul class="footer-list">
                 <li class="footer-list-item">
                     <svg>
@@ -773,11 +780,11 @@
                     <div class="footer-socialprofiles-imgcontainer-twitter"><a href="https://x.com/?lang=uk"><svg>
                                 <use href="./img/svg/symbol-defs.svg#icon-twiter" />
                             </svg></a>
-                    </li>
-                    <li class="footer-socialprofiles-imgcontainer-in"><a href=""><svg>
-                                <use href="./img/svg/symbol-defs.svg#icon-in" />
-                            </svg></a>
-                    </li>
+                        </li>
+                        <li class="footer-socialprofiles-imgcontainer-in"><a href=""><svg>
+                                    <use href="./img/svg/symbol-defs.svg#icon-in" />
+                                </svg></a>
+                        </li>
                 </ul>
             </div>
             <p class="footer-end-of-page-text">© 2023 Skillbridge. All rights reserved.</p>
