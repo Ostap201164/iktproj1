@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
     font-family: "Be Vietnam Pro";
     background: var(--White-97, #f7f7f8);
     border: none;
@@ -78,7 +77,7 @@ body {
     align-items: center;
   }
   /*header end*/
-=======
+body{
   font-family: "Be Vietnam Pro";
   background: var(--White-97, #f7f7f8);
   border: none;
@@ -425,6 +424,8 @@ body {
   font-weight: 600;
   line-height: 1.5;
 }
-
+.Achievements{
+  margin-bottom: 50px;
+}
 .CTA-Abstractlogo-backroundimage {}
->>>>>>> 0d53879c011b4d9f8f80c5441d0d9298867a64a3
+
