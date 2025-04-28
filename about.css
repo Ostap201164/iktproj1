@@ -375,6 +375,7 @@ body {
 }
 
 .text-container-CTA {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -437,6 +438,8 @@ body {
   background-image: url("./img/svg/AbstractDesign.svg");
   background-repeat: no-repeat;
   display: inline-block;
+  width: 235px;
+  height: 235px;
 }
 /* footer*/
 .footer-imgcontainer-logo {
