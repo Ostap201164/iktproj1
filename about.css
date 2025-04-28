@@ -434,3 +434,106 @@ body{
 }
 .CTA-Abstractlogo-backroundimage {}
 
+ /* footer*/
+ .footer-imgcontainer-logo {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  padding: 6x 6px 6px 6px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background: var(--Orange-50);
+  margin-bottom: 30px;
+}
+.footer-logo {
+  height: 32.5px;
+  width: 32.5px;
+}
+footer {
+  margin: 0 auto;
+  display: flex;
+  width: 390px;
+  padding: 50px 20px 24px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: var(--Absolute-White);
+}
+.footer-list {
+  align-items: flex-start;
+  align-content: flex-start;
+  align-self: stretch;
+  margin-bottom: 24px;
+}
+.footer-list-item {
+  display: flex;
+  gap: 6px;
+}
+.footer-list-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.footer-list-item-icon {
+  width: 24px;
+  height: 24px;
+}
+.footer-container-list-item-link {
+  color: var(--Grey-15);
+  font-family: "Be Vietnam Pro";
+  font-size: 15px;
+  line-height: 1.5;
+}
+.footer-home-and-about-list {
+  display: flex;
+  margin-bottom: 24px;
+  gap: 30px;
+}
+.footer-home-or-about-bigger-text {
+  color: var(--Grey-15);
+  font-family: "Be Vietnam Pro";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.footer-home-or-about-text {
+  color: var(--Grey-35);
+  font-family: "Be Vietnam Pro";
+  font-size: 14px;
+  line-height: 1.5;
+}
+.footer-container-container2-text {
+  color: var(--Grey-15);
+  font-family: "Be Vietnam Pro";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5; /* 27px */
+}
+.footer-socialprofiles-imgcontainer {
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 6px;
+  border: 1px solid var(--White-95);
+  background: var(--White-97);
+}
+.footer-home-or-aboutus-item {
+  display: flex;
+  width: 128px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.footer-socialprofiles-imgcontainer-icon {
+  width: 20px;
+  height: 20px;
+}
+.footer-container-container2-container {
+  display: flex;
+  gap: 14px;
+  margin-top: 10px;
+}
+.footer-end-of-page-text {
+  color: var(--Grey-40);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
