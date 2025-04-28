@@ -3,9 +3,11 @@ body {
   background: var(--White-97);
   border: none;
 }
+
 * {
   border: none;
 }
+
 .tob-baner {
   display: flex;
   padding: 10px 16px;
@@ -15,16 +17,19 @@ body {
   background-color: var(--Orange-50);
   color: var(--Absolute-White);
   font-size: 14px;
-  line-height: 1.5; /* 21px */
+  line-height: 1.5;
+  /* 21px */
   border-radius: 6px;
   width: 100%;
 }
+
 .header {
   width: 358px;
   margin: 0 auto;
   margin-bottom: 50px;
   /*padding: 40px 16px 0px 16px;*/
 }
+
 .hero {
   display: flex;
   width: 357px;
@@ -32,14 +37,17 @@ body {
   align-items: center;
   margin-bottom: 30px;
 }
+
 .top-baner-icon {
   width: 20px;
   height: 20px;
 }
+
 .hero-subcontainer-itemIMG-icon {
   width: 24px;
   height: 24px;
 }
+
 .imgcontainer-logo {
   width: fit-content;
   height: fit-content;
@@ -49,10 +57,12 @@ body {
   border-radius: 6px;
   background: var(--Orange-50);
 }
+
 .logo {
   width: 30px;
   height: 30px;
 }
+
 .header-container {
   display: flex;
   padding: 14px 0px 14px 0px;
@@ -60,13 +70,16 @@ body {
   align-items: center;
   align-self: stretch;
 }
+
 .nav {
   display: none;
 }
+
 .burger-menu {
   width: 34px;
   height: 34px;
 }
+
 .header-btncontainer-item-login {
   border-radius: 6px;
   background: var(--Orange-50);
@@ -76,13 +89,16 @@ body {
   gap: 8px;
   color: var(--Absolute-White);
   font-size: 14px;
-  line-height: 1.5; /* 21px */
+  line-height: 1.5;
+  /* 21px */
 }
+
 .header-btncontainer {
   gap: 20px;
   display: flex;
   align-items: center;
 }
+
 .hero-subcontainer {
   position: relative;
   display: flex;
@@ -98,22 +114,27 @@ body {
   background: var(--White-99);
   margin-bottom: 16px;
 }
+
 .h1-span {
   color: var(--Orange-50);
   font-size: 16px;
   font-weight: 600;
-  line-height: 1.5; /* 24px */
+  line-height: 1.5;
+  /* 24px */
 }
+
 h1 {
   color: var(--Grey-10);
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
 }
+
 main {
   width: 358px;
   margin: 0 auto;
 }
+
 .hero-subcontainer-itemIMG {
   padding: 12px;
   justify-content: center;
@@ -122,6 +143,7 @@ main {
   border-radius: 6px;
   background: var(--Orange-95);
 }
+
 .hero-subcontainer::after {
   position: absolute;
   left: -10px;
@@ -133,6 +155,7 @@ main {
   height: 43px;
   display: inline-block;
 }
+
 .hero-text-container-item-bigger {
   color: var(--Grey-15);
   text-align: center;
@@ -140,6 +163,7 @@ main {
   font-weight: 500;
   line-height: 1.5;
 }
+
 .hero-text-container-item-smaller {
   color: var(--Grey-15);
   text-align: center;
@@ -147,6 +171,7 @@ main {
   line-height: 1.5;
   margin-bottom: 50px;
 }
+
 .hero-btn-container-item-ExploreCourses {
   padding: 14px 20px;
   justify-content: center;
@@ -160,6 +185,7 @@ main {
   line-height: 1.5;
   font-family: "Be Vietnam Pro";
 }
+
 .hero-btn-container-item-ViewPricing {
   padding: 14px 20px;
   justify-content: center;
@@ -174,10 +200,12 @@ main {
   font-weight: 500;
   line-height: 1.5;
 }
+
 .hero-btn-container {
   gap: 12px;
   display: flex;
 }
+
 .main-logotips {
   display: flex;
   width: 357px;
@@ -187,27 +215,32 @@ main {
   border: 1px solid var(--White-95);
   background: var(--White-99);
 }
+
 .logotips-container {
   padding: 20px 30px;
   justify-content: center;
   align-items: center;
   flex: 1 0 0;
 }
+
 .logotips-for-desktop {
   display: none;
 }
+
 .text-and-viewall-btn-h2 {
   color: var(--Grey-15);
   font-size: 28px;
   font-weight: 600;
   line-height: 1.5;
 }
+
 .text-and-viewall-btn-text {
   color: var(--Grey-35);
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
 .text-and-viewall-btn-btn {
   padding: 14px 20px;
   justify-content: center;
@@ -216,9 +249,11 @@ main {
   border: 1px solid var(--White-95);
   background: var(--White-99);
 }
+
 .benefits-list-item-desktop {
   display: none;
 }
+
 .benefits-list-item {
   border-radius: 10px;
   background: var(--Absolute-White);
@@ -229,6 +264,7 @@ main {
   gap: 30px;
   align-self: stretch;
 }
+
 .benefits-list-item-number {
   color: var(--Grey-15);
   text-align: right;
@@ -239,6 +275,7 @@ main {
   font-weight: 700;
   line-height: 24px;
 }
+
 .benefits-list-item-h3 {
   color: var(--Grey-20);
   font-size: 20px;
@@ -246,15 +283,18 @@ main {
   line-height: 1.5;
   letter-spacing: -0.12px;
 }
+
 .benefits-list-item-text {
   color: var(--Grey-30);
   font-size: 14px;
   line-height: 1.5;
 }
+
 .orstrilka {
   width: 26px;
   height: 26px;
 }
+
 .benefits-list-item-imgcontainer {
   padding: 14px;
   justify-content: center;
@@ -263,27 +303,34 @@ main {
   border: 1px solid var(--White-95);
   background: var(--White-99);
 }
+
 .benefits-list-item:not(:last-child) {
   margin-bottom: 20px;
 }
+
 .benefits-list-item:last-child {
   margin-bottom: 50px;
 }
+
 .ourcourses-list-item:not(:last-child) {
   margin-bottom: 20px;
 }
+
 .ourcourses-list-item:last-child {
   margin-bottom: 50px;
 }
+
 .text-and-viewall-btn {
   margin-bottom: 40px;
 }
+
 .ourcourses-list-item-subcontainer-time-and-category {
   display: flex;
   gap: 10px;
   margin-bottom: 14px;
   margin-top: 24px;
 }
+
 .ourcourses-list-item-subcontainer-category {
   padding: 8px 14px;
   align-items: flex-start;
@@ -291,6 +338,7 @@ main {
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
 }
+
 .ourcourses-list-item-subcontainer-time {
   padding: 8px 14px;
   align-items: flex-start;
@@ -298,14 +346,17 @@ main {
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
 }
+
 .ourcourses-list-item-subcontainer-category {
   color: var(--Grey-30);
   font-size: 14px;
 }
+
 .ourcourses-list-item-subcontainer-time-item {
   color: var(--Grey-30);
   font-size: 14px;
 }
+
 .ourcourses-list-item {
   margin-bottom: 20px;
   padding: 24px;
@@ -316,9 +367,11 @@ main {
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
 }
+
 .ourcourses-list-item-subcontainer-text {
   margin-bottom: 24px;
 }
+
 .ourcourses-list-item-textcontainer-h3 {
   color: var(--Grey-15);
   font-size: 18px;
@@ -326,12 +379,14 @@ main {
   line-height: 1.5;
   margin-bottom: 10px;
 }
+
 .ourcourses-list-item-textcontainer-text {
   margin-bottom: 24px;
   color: var(--Grey-30);
   font-size: 14px;
   line-height: 1.5;
 }
+
 .ourcourses-list-item-btn {
   display: flex;
   padding: 14px 24px;
@@ -342,6 +397,7 @@ main {
   border: 1px solid var(--White-95);
   background: var(--White-97);
 }
+
 .ourtestimonial-list-item {
   display: flex;
   flex-direction: column;
@@ -351,6 +407,7 @@ main {
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
 }
+
 .ourtestimonial-list {
   display: flex;
   flex-direction: column;
@@ -358,29 +415,35 @@ main {
   gap: 20px;
   align-self: stretch;
 }
+
 .ourtestimonial-list-item-images {
   display: flex;
   padding: 20px 30px;
   align-items: center;
   align-self: stretch;
 }
+
 .ourtestimonial-subcontainer {
   display: flex;
   align-items: center;
   gap: 10px;
   flex: 1 0 0;
 }
+
 .ourtestimonial-list-item-maintext-item {
   color: var(--Grey-30);
   font-size: 14px;
-  line-height: 1.5; /* 21px */
+  line-height: 1.5;
+  /* 21px */
 }
+
 .ourtestimonial-list-item-maintext {
   display: flex;
   padding: 30px;
   align-items: flex-start;
   align-self: stretch;
 }
+
 .ourtestimonial-list-item-images-btn {
   display: flex;
   padding: 14px 16px;
@@ -389,4 +452,192 @@ main {
   border-radius: 6px;
   border: 1px solid var(--White-95);
   background: var(--White-97);
+}
+
+.FAQ {
+  display: flex;
+  width: 357px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  border-radius: 12px;
+  background: var(--Absolute-White);
+}
+
+.FAQ-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.FAQ-title {
+  align-self: stretch;
+  color: var(--Grey-15);
+
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.FAQ-text {
+  align-self: stretch;
+  color: var(--Grey-20);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.FAQ-container-button {
+  display: flex;
+  padding: 14px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--White-95);
+  background: var(--Absolute-White);
+}
+
+.FAQ-container-button-text {
+  color: var(--Grey-15);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.FAQ-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.FAQ-container-card {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 10px;
+  border: 1px solid var(--White-95);
+  background: var(--Absolute-White);
+}
+
+.FAQ-item-card-container {
+  display: flex;
+  padding-bottom: 20px;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+  border-bottom: 1px solid var(--White-95);
+}
+
+.FAQ-item-card-container-text {
+  color: var(--Grey-15, );
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  flex: 1 0 0;
+}
+
+.FAQ-item-card-container-button {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 6px;
+  background: var(--Orange-95);
+}
+
+.FAQ-item-card-container-button-img {
+  width: 20px;
+  height: 20px;
+}
+
+.FAQ-container-card-text {
+  align-self: stretch;
+  color: var(--Grey-30);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.084px;
+}
+
+.FAQ-item-card-subcontainer {
+  display: flex;
+  padding: 12px 20px;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 6px;
+  border: 1px solid var(--White-95);
+  background: var(--White-97);
+}
+
+.FAQ-item-card-subcontainer-text {
+  color: var(--Grey-20);
+  font-family: "Be Vietnam Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  flex: 1 0 0;
+}
+
+.FAQ-item-card-subcontainer-button {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--Absolute-White);
+}
+
+.FAQ-item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.FAQ-item-list-item {
+  display: flex;
+  padding: 20px 24px;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  border-radius: 10px;
+  border: 1px solid var(--White-95);
+  background: var(--Absolute-White);
+}
+
+.FAQ-item-list-item-text {
+  flex: 1 0 0;
+  color: var(--Grey-15);
+  font-family: "Be Vietnam Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.FAQ-item-list-item-button {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 6px;
+  background: var(--Orange-95);
 }
