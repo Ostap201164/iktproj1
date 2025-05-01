@@ -24,18 +24,15 @@ body {
 }
 
 .header {
-  width: 358px;
-  margin: 0 auto;
   margin-bottom: 50px;
   /*padding: 40px 16px 0px 16px;*/
 }
 
 .hero {
   display: flex;
-  width: 357px;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .top-baner-icon {
@@ -130,11 +127,6 @@ h1 {
   line-height: 1.5;
 }
 
-main {
-  width: 358px;
-  margin: 0 auto;
-}
-
 .hero-subcontainer-itemIMG {
   padding: 12px;
   justify-content: center;
@@ -170,8 +162,20 @@ main {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 50px;
+  display: -webkit-box;
+  width: 284px;
 }
-
+.hero-text-container-item-smalle > span {
+  display: block;
+}
+.hero-text-container {
+  display: flex;
+  padding: 0px 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  align-self: stretch;
+}
 .hero-btn-container-item-ExploreCourses {
   padding: 14px 20px;
   justify-content: center;
@@ -204,6 +208,9 @@ main {
 .hero-btn-container {
   gap: 12px;
   display: flex;
+  margin-bottom: 30px;
+  align-items: flex-start;
+  padding: 0px 32px 0px 32px;
 }
 
 .main-logotips {
@@ -251,9 +258,7 @@ main {
   font-family: "Be Vietnam Pro";
 }
 
-.benefits-list-item-desktop {
-  display: none;
-}
+
 
 .benefits-list-item {
   border-radius: 10px;
@@ -265,16 +270,15 @@ main {
   gap: 30px;
   align-self: stretch;
 }
-
+.benefits-list-item-desktop {
+  display: none;
+}
 .benefits-list-item-number {
   color: var(--Grey-15);
   text-align: right;
-  leading-trim: both;
-  text-edge: cap;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
 }
 
 .benefits-list-item-h3 {
@@ -309,7 +313,7 @@ main {
   margin-bottom: 20px;
 }
 
-.benefits-list-item:last-child {
+.benefits{
   margin-bottom: 50px;
 }
 
@@ -317,7 +321,7 @@ main {
   margin-bottom: 20px;
 }
 
-.ourcourses-list-item:last-child {
+.ourcourses{
   margin-bottom: 50px;
 }
 
@@ -408,7 +412,9 @@ main {
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
 }
-
+.ourtestimonial{
+  margin-bottom: 50px;
+}
 .ourtestimonial-list {
   display: flex;
   flex-direction: column;
@@ -455,9 +461,6 @@ main {
   border: 1px solid var(--White-95);
   background: var(--White-97);
 }
-
-
-
 
 .ourpricing-container-h2 {
   color: var(--Grey-15);
@@ -646,9 +649,7 @@ main {
 }
 
 footer {
-  margin: 0 auto;
   display: flex;
-  width: 390px;
   padding: 50px 20px 24px 20px;
   flex-direction: column;
   align-items: flex-start;
@@ -722,7 +723,6 @@ footer {
   background: var(--White-97);
 }
 
-
 .footer-home-or-aboutus-item {
   display: flex;
   width: 128px;
@@ -750,13 +750,12 @@ footer {
 }
 .FAQ {
   display: flex;
-  width: 357px;
   padding: 24px;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
   border-radius: 12px;
-  background: var(--Absolute-White);
+
 }
 
 .FAQ-container {
@@ -815,7 +814,6 @@ footer {
   align-self: stretch;
 }
 
-
 .FAQ-container-card {
   display: flex;
   padding: 24px;
@@ -850,7 +848,7 @@ footer {
 }
 
 .FAQ-item-card-container-text {
-  color: var(--Grey-15, );
+  color: var(--Grey-15);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -1178,4 +1176,8 @@ footer {
   gap: 10px;
   border-radius: 6px;
   background: var(--Orange-95);
+}
+.container {
+  width: 358px;
+  margin: 0 auto;
 }
