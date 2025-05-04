@@ -12,26 +12,20 @@ body {
   display: flex;
   padding: 10px 16px;
   justify-content: space-between;
-  align-items: center;
-  align-self: stretch;
   background-color: var(--Orange-50);
   color: var(--Absolute-White);
   font-size: 14px;
   line-height: 1.5;
-  /* 21px */
   border-radius: 6px;
   width: 100%;
 }
 
 .header {
   margin-bottom: 50px;
-  /*padding: 40px 16px 0px 16px;*/
 }
 
 .hero {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 50px;
 }
 
@@ -46,11 +40,7 @@ body {
 }
 
 .imgcontainer-logo {
-  width: fit-content;
-  height: fit-content;
   padding: 5px 5px 5px 5px;
-  justify-content: center;
-  align-items: center;
   border-radius: 6px;
   background: var(--Orange-50);
 }
@@ -64,8 +54,6 @@ body {
   display: flex;
   padding: 14px 0px 14px 0px;
   justify-content: space-between;
-  align-items: center;
-  align-self: stretch;
 }
 
 .nav {
@@ -81,9 +69,7 @@ body {
   border-radius: 6px;
   background: var(--Orange-50);
   padding: 12px 20px;
-  align-items: center;
   font-family: "Be Vietnam Pro";
-  gap: 8px;
   color: var(--Absolute-White);
   font-size: 14px;
   line-height: 1.5;
@@ -102,10 +88,7 @@ body {
   padding: 14px;
   justify-content: center;
   align-items: center;
-  align-content: center;
   gap: 10px;
-  align-self: stretch;
-  flex-wrap: wrap;
   border-radius: 8px;
   border: 1px solid var(--White-95);
   background: var(--White-99);
@@ -129,9 +112,6 @@ h1 {
 
 .hero-subcontainer-itemIMG {
   padding: 12px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   border-radius: 6px;
   background: var(--Orange-95);
 }
@@ -161,7 +141,6 @@ h1 {
   text-align: center;
   font-size: 14px;
   line-height: 1.5;
-  margin-bottom: 50px;
   display: -webkit-box;
   width: 284px;
 }
@@ -174,16 +153,13 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  align-self: stretch;
+  margin-bottom: 50px;
 }
 .hero-btn-container-item-ExploreCourses {
   padding: 14px 20px;
-  justify-content: center;
-  align-items: center;
   border-radius: 6px;
   background: var(--Orange-50);
   color: var(--Absolute-White);
-  text-align: center;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.5;
@@ -192,13 +168,10 @@ h1 {
 
 .hero-btn-container-item-ViewPricing {
   padding: 14px 20px;
-  justify-content: center;
-  align-items: center;
   border-radius: 6px;
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
   color: var(--Grey-15);
-  text-align: center;
   font-family: "Be Vietnam Pro";
   font-size: 14px;
   font-weight: 500;
@@ -209,24 +182,22 @@ h1 {
   gap: 12px;
   display: flex;
   margin-bottom: 30px;
-  align-items: flex-start;
   padding: 0px 32px 0px 32px;
 }
 
 .main-logotips {
+  margin-bottom: 30px;
   display: flex;
-  width: 357px;
   padding: 10px;
-  align-items: flex-start;
+
   border-radius: 8px;
   border: 1px solid var(--White-95);
   background: var(--White-99);
 }
 
 .logotips-container {
+  border-right: 1px solid var(--White-95);
   padding: 20px 30px;
-  justify-content: center;
-  align-items: center;
   flex: 1 0 0;
 }
 
@@ -250,15 +221,11 @@ h1 {
 
 .text-and-viewall-btn-btn {
   padding: 14px 20px;
-  justify-content: center;
-  align-items: center;
   border-radius: 6px;
   border: 1px solid var(--White-95);
   background: var(--White-99);
   font-family: "Be Vietnam Pro";
 }
-
-
 
 .benefits-list-item {
   border-radius: 10px;
@@ -268,7 +235,6 @@ h1 {
   flex-direction: column;
   align-items: flex-end;
   gap: 30px;
-  align-self: stretch;
 }
 .benefits-list-item-desktop {
   display: none;
@@ -287,6 +253,7 @@ h1 {
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: -0.12px;
+  margin-bottom: 10px;
 }
 
 .benefits-list-item-text {
@@ -302,8 +269,6 @@ h1 {
 
 .benefits-list-item-imgcontainer {
   padding: 14px;
-  justify-content: center;
-  align-items: center;
   border-radius: 6px;
   border: 1px solid var(--White-95);
   background: var(--White-99);
@@ -313,7 +278,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.benefits{
+.benefits {
   margin-bottom: 50px;
 }
 
@@ -321,7 +286,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.ourcourses{
+.ourcourses {
   margin-bottom: 50px;
 }
 
@@ -338,7 +303,6 @@ h1 {
 
 .ourcourses-list-item-subcontainer-category {
   padding: 8px 14px;
-  align-items: flex-start;
   border-radius: 6px;
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
@@ -346,7 +310,6 @@ h1 {
 
 .ourcourses-list-item-subcontainer-time {
   padding: 8px 14px;
-  align-items: flex-start;
   border-radius: 6px;
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
@@ -363,11 +326,7 @@ h1 {
 }
 
 .ourcourses-list-item {
-  margin-bottom: 20px;
   padding: 24px;
-  flex-direction: column;
-  align-items: flex-start;
-  align-self: stretch;
   border-radius: 10px;
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
@@ -396,8 +355,6 @@ h1 {
   display: flex;
   padding: 14px 24px;
   justify-content: center;
-  align-items: center;
-  align-self: stretch;
   border-radius: 6px;
   border: 1px solid var(--White-95);
   background: var(--White-97);
@@ -406,28 +363,23 @@ h1 {
 .ourtestimonial-list-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  align-self: stretch;
   border-radius: 10px;
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
 }
-.ourtestimonial{
+.ourtestimonials {
   margin-bottom: 50px;
 }
 .ourtestimonial-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 20px;
-  align-self: stretch;
 }
 
 .ourtestimonial-list-item-images {
   display: flex;
   padding: 20px 30px;
   align-items: center;
-  align-self: stretch;
 }
 
 .ourtestimonial-subcontainer {
@@ -441,22 +393,17 @@ h1 {
   color: var(--Grey-30);
   font-size: 14px;
   line-height: 1.5;
-  /* 21px */
 }
 
 .ourtestimonial-list-item-maintext {
   display: flex;
   padding: 30px;
-  align-items: flex-start;
-  align-self: stretch;
   border: 1px solid var(--White-95);
 }
 
 .ourtestimonial-list-item-images-btn {
   display: flex;
   padding: 14px 16px;
-  justify-content: center;
-  align-items: center;
   border-radius: 6px;
   border: 1px solid var(--White-95);
   background: var(--White-97);
@@ -478,7 +425,6 @@ h1 {
 .ourpricing-container-btncontainer {
   display: flex;
   padding: 12px;
-  align-items: center;
   border-radius: 8px;
   background: var(--Absolute-White);
 }
@@ -493,20 +439,14 @@ h1 {
 }
 
 .ourpricing-container-btncontainer-btn-Monthly {
-  display: flex;
   padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
   border-radius: 6px;
   background: var(--Orange-50);
   font-family: "Be Vietnam Pro";
 }
 
 .ourpricing-container-btncontainer-btn-Yearly {
-  display: flex;
   padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
   border-radius: 100px;
   color: var(--Grey-30);
   font-family: "Be Vietnam Pro";
@@ -539,29 +479,11 @@ h1 {
 }
 
 .ourpricing-list-item-container {
-  display: flex;
   padding: 8px 22px;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
-  align-self: stretch;
   border-radius: 4px;
   border: 1px solid var(--Orange-90);
   background: var(--Orange-97);
-}
-
-.ourpricing-list-item-text {
-  color: var(--Grey-15);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.69;
-}
-
-.ourpricing-list-item-pricetext {
-  color: var(--Grey-30);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 0.73;
 }
 
 .ourpricing-list-item-pricetext-span {
@@ -583,15 +505,9 @@ h1 {
   background: var(--Absolute-White);
 }
 
-.ourpricing-svg {
-  width: 16px;
-  height: 16px;
-}
-
 .ourpricing-list-item-list-item-imgcontainer {
   display: flex;
   padding: 4px;
-  align-items: flex-start;
   border-radius: 4px;
   background: var(--Orange-95);
 }
@@ -599,7 +515,6 @@ h1 {
 .ourpricing-list-item-list-item-imgcontainer-negative {
   display: flex;
   padding: 4px;
-  align-items: flex-start;
   border-radius: 4px;
   border: 1px solid var(--White-95);
 }
@@ -609,118 +524,29 @@ h1 {
   padding: 12px;
   align-items: flex-start;
   gap: 8px;
-  align-self: stretch;
   border-radius: 6px;
   border: 1px solid var(--White-95);
 }
 
 .ourpricing-list-item-btn {
   display: flex;
+  width: 100%;
   padding: 18px 24px;
-  justify-content: center;
-  align-items: center;
-  align-self: stretch;
   border-radius: 0px 0px 8px 8px;
   background: var(--Orange-50);
   color: var(--Absolute-White);
-  text-align: center;
   font-family: "Be Vietnam Pro";
   font-size: 14px;
   font-weight: 600;
   line-height: 1.5;
+  justify-content: center;
 }
 
 /* footer*/
-.footer-imgcontainer-logo {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  padding: 6x 6px 6px 6px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 6px;
-  background: var(--Orange-50);
-  margin-bottom: 30px;
-}
-
-.footer-logo {
-  height: 32.5px;
-  width: 32.5px;
-}
-
-footer {
-  display: flex;
-  padding: 50px 20px 24px 20px;
-  flex-direction: column;
-  align-items: flex-start;
-  background: var(--Absolute-White);
-}
-
-.footer-list {
-  align-items: flex-start;
-  align-content: flex-start;
-  align-self: stretch;
-  margin-bottom: 24px;
-}
 
 .footer-list-item {
   display: flex;
   gap: 6px;
-}
-
-.footer-list-item:not(:last-child) {
-  margin-bottom: 12px;
-}
-
-.footer-list-item-icon {
-  width: 24px;
-  height: 24px;
-}
-
-.footer-container-list-item-link {
-  color: var(--Grey-15);
-  font-family: "Be Vietnam Pro";
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-.footer-home-and-about-list {
-  display: flex;
-  margin-bottom: 24px;
-  gap: 30px;
-}
-
-.footer-home-or-about-bigger-text {
-  color: var(--Grey-15);
-  font-family: "Be Vietnam Pro";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-.footer-home-or-about-text {
-  color: var(--Grey-35);
-  font-family: "Be Vietnam Pro";
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.footer-container-container2-text {
-  color: var(--Grey-15);
-  font-family: "Be Vietnam Pro";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.5;
-  /* 27px */
-}
-
-.footer-socialprofiles-imgcontainer {
-  padding: 12px;
-  flex-direction: column;
-  align-items: flex-start;
-  border-radius: 6px;
-  border: 1px solid var(--White-95);
-  background: var(--White-97);
 }
 
 .footer-home-or-aboutus-item {
@@ -743,6 +569,7 @@ footer {
 }
 
 .footer-end-of-page-text {
+  margin-top: 20px;
   color: var(--Grey-40);
   text-align: center;
   font-size: 14px;
@@ -755,7 +582,6 @@ footer {
   align-items: flex-start;
   gap: 40px;
   border-radius: 12px;
-
 }
 
 .FAQ-container {
@@ -887,75 +713,6 @@ footer {
   align-self: stretch;
 }
 
-.ourpricing-container-h2 {
-  color: var(--Grey-15);
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 1.5;
-}
-.ourpricing-container-text {
-  color: var(--Grey-35);
-  font-size: 14px;
-  line-height: 1.5;
-}
-.ourpricing-container-btncontainer {
-  display: flex;
-  padding: 12px;
-  align-items: center;
-  border-radius: 8px;
-  background: var(--Absolute-White);
-}
-.ourpricing-container {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  align-self: stretch;
-  margin-bottom: 40px;
-}
-.ourpricing-container-btncontainer-btn-Monthly {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 6px;
-  background: var(--Orange-50);
-  font-family: "Be Vietnam Pro";
-}
-.ourpricing-container-btncontainer-btn-Yearly {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100px;
-  color: var(--Grey-30);
-  font-family: "Be Vietnam Pro";
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.5;
-}
-.ourpricing-list {
-  display: flex;
-  padding: 20px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 30px;
-  align-self: stretch;
-  border-radius: 12px;
-  background: var(--Absolute-White);
-}
-.ourpricing-list-item {
-  display: flex;
-  padding: 30px 20px 20px 20px;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  align-self: stretch;
-  border-radius: 12px;
-  border: 1px solid var(--White-95);
-  background: var(--White-99);
-}
 .ourpricing-list-item-container {
   display: flex;
   padding: 8px 22px;
@@ -974,71 +731,22 @@ footer {
   line-height: 1.69;
 }
 .ourpricing-list-item-pricetext {
+  display: flex;
   color: var(--Grey-30);
   font-size: 14px;
   font-weight: 500;
   line-height: 0.73;
-}
-.ourpricing-list-item-pricetext-span {
-  color: var(--Grey-15);
-  font-size: 50px;
-  font-weight: 600;
-  line-height: 0.73;
-}
-.ourpricing-list-item-list {
-  display: flex;
-  padding: 20px;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
   align-self: stretch;
-  border-radius: 10px 10px 0px 0px;
-  border: 1px solid var(--White-95);
-  background: var(--Absolute-White);
 }
+
 .ourpricing-svg {
   width: 16px;
   height: 16px;
 }
-.ourpricing-list-item-list-item-imgcontainer {
-  display: flex;
-  padding: 4px;
-  align-items: flex-start;
-  border-radius: 4px;
-  background: var(--Orange-95);
-}
-.ourpricing-list-item-list-item-imgcontainer-negative {
-  display: flex;
-  padding: 4px;
-  align-items: flex-start;
-  border-radius: 4px;
-  border: 1px solid var(--White-95);
-}
-.ourpricing-list-item-list-item {
-  display: flex;
-  padding: 12px;
-  align-items: flex-start;
-  gap: 8px;
-  align-self: stretch;
-  border-radius: 6px;
-  border: 1px solid var(--White-95);
-}
-.ourpricing-list-item-btn {
-  display: flex;
-  padding: 18px 24px;
-  justify-content: center;
-  align-items: center;
-  align-self: stretch;
-  border-radius: 0px 0px 8px 8px;
-  background: var(--Orange-50);
-  color: var(--Absolute-White);
-  text-align: center;
-  font-family: "Be Vietnam Pro";
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.5;
-}
-/* footer*/
+
+/* footer */
 .footer-imgcontainer-logo {
   display: flex;
   width: 44px;
@@ -1054,12 +762,8 @@ footer {
   height: 32.5px;
   width: 32.5px;
 }
-footer {
-  margin: 0 auto;
-  display: flex;
-  width: 390px;
+.footer-all-container {
   padding: 50px 20px 24px 20px;
-  flex-direction: column;
   align-items: flex-start;
   background: var(--Absolute-White);
 }
@@ -1069,10 +773,7 @@ footer {
   align-self: stretch;
   margin-bottom: 24px;
 }
-.footer-list-item {
-  display: flex;
-  gap: 6px;
-}
+
 .footer-list-item:not(:last-child) {
   margin-bottom: 12px;
 }
