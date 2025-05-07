@@ -51,6 +51,7 @@ body {
 }
 
 .header-container {
+  border-bottom: 1px solid #F1F1F3;
   display: flex;
   padding: 14px 0px 14px 0px;
   justify-content: space-between;
@@ -791,6 +792,10 @@ h1 {
   display: flex;
   margin-bottom: 24px;
   gap: 30px;
+}
+.footer-socialprofiles{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #F1F1F3;
 }
 .footer-home-or-about-bigger-text {
   color: var(--Grey-15);
