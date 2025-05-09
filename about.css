@@ -172,48 +172,38 @@ body {
 
 .Skillbridge-container {
   display: flex;
-  width: 358px;
   padding-bottom: 30px;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
   gap: 16px;
 }
 
 .Skillbridge-container-title {
   color: var(--Grey-15);
   font-size: 28px;
-  font-style: normal;
+  
   font-weight: 600;
   line-height: 1.5;
-  align-self: stretch;
+  
 }
 
 .Skillbridge-container-text {
   color: var(--Grey-35);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
-  align-self: stretch;
 }
 
 .main {
-  width: 358px;
   margin: 0 auto;
   margin-bottom: 50px;
   display: flex;
   width: 358px;
   flex-direction: column;
-  align-items: flex-end;
   gap: 50px;
 }
 
 .Achievements {
   display: flex;
-  width: 358px;
   flex-direction: column;
-  align-items: flex-start;
   gap: 50px;
 }
 
@@ -227,32 +217,24 @@ body {
 }
 
 .Achievements-text {
-  flex: 1 0 0;
-  align-self: stretch;
   color: var(--Grey-35);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
 }
 
-.Achievements-container-list {
+.container-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 20px;
-  align-self: stretch;
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 6px;
-  align-self: stretch;
 }
 
-.Achievements-container-list-item {
+.container-list-item {
   display: flex;
   padding: 30px;
   flex-direction: column;
@@ -263,7 +245,7 @@ body {
   background: var(--Absolute-White);
 }
 
-.Achievements-container-list-imgcontainer {
+.container-list-imgcontainer {
   display: flex;
   padding: 14px;
   justify-content: center;
@@ -274,7 +256,7 @@ body {
   background: var(--Orange-97);
 }
 
-.Achievements-container-list-imgcontainer-img {
+.container-list-imgcontainer-img {
   width: 28px;
   height: 23px;
   flex-shrink: 0;
@@ -316,43 +298,6 @@ body {
   font-weight: 400;
   line-height: 150%;
 }
-
-.OurGoals-container-list {
-  display: flex;
-  width: 358px;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 50px;
-}
-
-.OurGoals-container-list-item {
-  display: flex;
-  padding: 30px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  align-self: stretch;
-  border-radius: 10px;
-  background: var(--Absolute-White);
-}
-
-.OurGoals-container-list-imgcontainer {
-  display: flex;
-  padding: 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 8px;
-  border: 1px solid var(--Orange-90);
-  background-color: var(--Orange-97);
-}
-
-.OurGoals-container-list-imgcontainer-img {
-  width: 18px;
-  height: 29px;
-  flex-shrink: 0;
-}
-
 .OurGoals-container-title {
   align-self: stretch;
   color: var(--Grey-15);
