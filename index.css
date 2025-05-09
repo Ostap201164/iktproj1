@@ -746,9 +746,11 @@ footer {
   font-size: 14px;
   line-height: 1.5;
 }
+
 .FAQ {
+  margin-bottom: 50px;
+  margin-top: 50px;
   display: flex;
-  width: 357px;
   padding: 24px;
   flex-direction: column;
   align-items: flex-start;
@@ -766,31 +768,19 @@ footer {
 }
 
 .FAQ-title {
-  align-self: stretch;
-  color: var(--Grey-15);
-
   font-size: 28px;
-  font-style: normal;
   font-weight: 600;
   line-height: 1.2;
 }
 
 .FAQ-text {
-  align-self: stretch;
   color: var(--Grey-20);
-
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
 }
 
 .FAQ-container-button {
-  display: flex;
   padding: 14px 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
   border-radius: 6px;
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
@@ -798,10 +788,7 @@ footer {
 
 .FAQ-container-button-text {
   color: var(--Grey-15);
-  text-align: center;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -845,6 +832,7 @@ footer {
   gap: 30px;
   align-self: stretch;
   border-bottom: 1px solid var(--White-95);
+  border-radius: 10px;
 }
 
 .FAQ-item-card-container-text {
@@ -854,6 +842,8 @@ footer {
   font-weight: 500;
   line-height: 1.5;
   flex: 1 0 0;
+
+  
 }
 
 .FAQ-item-card-container-button {
@@ -871,11 +861,9 @@ footer {
 }
 
 .FAQ-container-card-text {
-  align-self: stretch;
-  color: var(--Grey-30);
+  color: var(--Grey-30, );
+  font-family: "Be Vietnam Pro";
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: -0.084px;
 }
@@ -884,14 +872,13 @@ footer {
   display: flex;
   padding: 12px 20px;
   align-items: center;
-  align-self: stretch;
+  border-radius: 6px;
+  border: 1px solid var(--White-95);
+  background: var(--White-97);
 }
 
 .FAQ-item-card-subcontainer-text {
-  color: var(--Grey-20);
-  font-family: "Be Vietnam Pro";
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   flex: 1 0 0;
@@ -900,8 +887,6 @@ footer {
 .FAQ-item-card-subcontainer-button {
   display: flex;
   padding: 10px;
-  align-items: flex-start;
-  gap: 10px;
   border-radius: 100px;
   background: var(--Absolute-White);
 }
@@ -919,7 +904,6 @@ footer {
   padding: 20px 24px;
   align-items: center;
   gap: 40px;
-  align-self: stretch;
   border-radius: 10px;
   border: 1px solid var(--White-95);
   background: var(--Absolute-White);
@@ -927,10 +911,6 @@ footer {
 
 .FAQ-item-list-item-text {
   flex: 1 0 0;
-  color: var(--Grey-15);
-  font-family: "Be Vietnam Pro";
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -938,8 +918,6 @@ footer {
 .FAQ-item-list-item-button {
   display: flex;
   padding: 10px;
-  align-items: flex-start;
-  gap: 10px;
   border-radius: 6px;
   background: var(--Orange-95);
 }
