@@ -52,4 +52,6 @@ img{
 }
 button{
 	background-color: inherit;
+	transition: 300ms;
+	cursor: pointer;
 }
