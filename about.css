@@ -263,7 +263,7 @@ body {
   background: var(--Absolute-White);
 }
 
-.container-list-imgcontainer {
+.Achievements-container-list-imgcontainer {
   display: flex;
   padding: 14px;
   justify-content: center;
@@ -274,7 +274,7 @@ body {
   background: var(--Orange-97);
 }
 
-.container-list-imgcontainer-img {
+.Achievements-container-list-imgcontainer-img {
   width: 28px;
   height: 23px;
   flex-shrink: 0;
@@ -317,6 +317,42 @@ body {
   line-height: 150%;
 }
 
+.OurGoals-container-list {
+  display: flex;
+  width: 358px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 50px;
+}
+
+.OurGoals-container-list-item {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 10px;
+  background: var(--Absolute-White);
+}
+
+.OurGoals-container-list-imgcontainer {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--Orange-90);
+  background-color: var(--Orange-97);
+}
+
+.OurGoals-container-list-imgcontainer-img {
+  width: 18px;
+  height: 29px;
+  flex-shrink: 0;
+}
+
 .OurGoals-container-title {
   align-self: stretch;
   color: var(--Grey-15);
@@ -329,6 +365,7 @@ body {
 .CTA {
   display: flex;
   padding: 30px;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 40px;
@@ -390,11 +427,9 @@ body {
   font-weight: 600;
   line-height: 1.5;
 }
-
 .Achievements {
   margin-bottom: 50px;
 }
-
 .text-container-CTA::after {
   position: absolute;
   right: -63px;
@@ -521,56 +556,45 @@ body {
   background: var(--Orange-50);
   margin-bottom: 30px;
 }
-
 .footer-logo {
   height: 32.5px;
   width: 32.5px;
 }
-
 footer {
-  margin: 0 auto;
   display: flex;
-  width: 390px;
   padding: 50px 20px 24px 20px;
   flex-direction: column;
   align-items: flex-start;
   background: var(--Absolute-White);
 }
-
 .footer-list {
   align-items: flex-start;
   align-content: flex-start;
   align-self: stretch;
   margin-bottom: 24px;
 }
-
 .footer-list-item {
   display: flex;
   gap: 6px;
 }
-
 .footer-list-item:not(:last-child) {
   margin-bottom: 12px;
 }
-
 .footer-list-item-icon {
   width: 24px;
   height: 24px;
 }
-
 .footer-container-list-item-link {
   color: var(--Grey-15);
   font-family: "Be Vietnam Pro";
   font-size: 15px;
   line-height: 1.5;
 }
-
 .footer-home-and-about-list {
   display: flex;
   margin-bottom: 24px;
   gap: 30px;
 }
-
 .footer-home-or-about-bigger-text {
   color: var(--Grey-15);
   font-family: "Be Vietnam Pro";
@@ -578,23 +602,19 @@ footer {
   font-weight: 600;
   line-height: 1.5;
 }
-
 .footer-home-or-about-text {
   color: var(--Grey-35);
   font-family: "Be Vietnam Pro";
   font-size: 14px;
   line-height: 1.5;
 }
-
 .footer-container-container2-text {
   color: var(--Grey-15);
   font-family: "Be Vietnam Pro";
   font-size: 18px;
   font-weight: 600;
-  line-height: 1.5;
-  /* 27px */
+  line-height: 1.5; /* 27px */
 }
-
 .footer-socialprofiles-imgcontainer {
   padding: 12px;
   flex-direction: column;
@@ -603,7 +623,6 @@ footer {
   border: 1px solid var(--White-95);
   background: var(--White-97);
 }
-
 .footer-home-or-aboutus-item {
   display: flex;
   width: 128px;
@@ -611,21 +630,95 @@ footer {
   align-items: flex-start;
   gap: 10px;
 }
-
 .footer-socialprofiles-imgcontainer-icon {
   width: 20px;
   height: 20px;
 }
-
 .footer-container-container2-container {
   display: flex;
   gap: 14px;
   margin-top: 10px;
 }
-
 .footer-end-of-page-text {
   color: var(--Grey-40);
   text-align: center;
   font-size: 14px;
   line-height: 1.5;
+}
+.container{
+  width: 358px;
+  margin: 0 auto;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+  }
+  .tob-baner {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    gap: 23px;
+  }
+  .nav {
+    display: block;
+  }
+  .nav-list {
+    display: flex;
+    gap: 26px;
+  }
+  .now {
+    border-radius: 6px;
+    background: var(--White-95);
+    padding: 12px 20px;
+    color: var(--Grey-15);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .not-now {
+    color: var(--Grey-15);
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .header-subcontainer {
+    display: flex;
+    gap: 50px;
+  }
+  /*header ends*/
+
+
+  /* footer starts*/
+  .desktop-display {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom: 1px solid #f1f1f3;
+    padding-bottom: 30px;
+  }
+  .footer-imgcontainer-logo {
+    margin-bottom: 40px;
+  }
+  .footer-subcontainer-other {
+    display: flex;
+    gap: 30px;
+  }
+  .footer-home-and-about-list {
+    gap: 30px;
+  }
+  .footer-socialprofiles {
+    border: none;
+  }
+  .footer-end-of-page-text {
+    margin-top: 30px;
+  }
+  .footer-all-container {
+    padding: 60px 80px 20px 80px;
+  }
 }
