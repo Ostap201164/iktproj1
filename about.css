@@ -208,12 +208,15 @@ body {
 }
 
 .main {
-  margin: 0 auto;
   margin-bottom: 50px;
   display: flex;
-  width: 358px;
   flex-direction: column;
   gap: 50px;
+}
+
+.container {
+  width: 358px;
+  margin: 0 auto;
 }
 
 .Achievements {
@@ -405,9 +408,10 @@ body {
 }
 
 @media (min-width: 1440px) {
-  .container{
-    width: 1280px ;
+  .container {
+    width: 1280px;
   }
+
   .Skillbridge-container {
     display: flex;
     width: 1400px;
