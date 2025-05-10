@@ -544,3 +544,75 @@ footer {
   font-size: 14px;
   line-height: 1.5;
 }
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .container {
+    width: 1280px;
+  }
+  .tob-baner {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    gap: 23px;
+  }
+  .nav {
+    display: block;
+  }
+  .nav-list {
+    display: flex;
+    gap: 26px;
+  }
+  .now {
+    border-radius: 6px;
+    background: var(--White-95);
+    padding: 12px 20px;
+    color: var(--Grey-15);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .not-now {
+    color: var(--Grey-15);
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .header-subcontainer {
+    display: flex;
+    gap: 50px;
+  }
+  /*header ends*/
+
+  
+  /* footer starts*/
+  .desktop-display {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom: 1px solid #f1f1f3;
+    padding-bottom: 30px;
+  }
+  .footer-imgcontainer-logo {
+    margin-bottom: 40px;
+  }
+  .footer-subcontainer-other {
+    display: flex;
+    gap: 30px;
+  }
+  .footer-home-and-about-list {
+    gap: 30px;
+  }
+  .footer-socialprofiles {
+    border: none;
+  }
+  .footer-end-of-page-text {
+    margin-top: 30px;
+  }
+  .footer-all-container {
+    padding: 60px 80px 20px 80px;
+  }
+}
