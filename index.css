@@ -1221,6 +1221,28 @@ background: var(--Absolute-White);
   .footer-all-container {
     padding: 60px 80px 20px 80px;
   }
+  /* margins*/
+  .hero-btn-container{
+    margin-bottom: 100px;
+  }
+  .main-logotips{
+    margin-bottom: 80px;
+  }
+  .hero{
+    margin-bottom: 100px;
+  }
+  .text-and-viewall-btn{
+    margin-bottom: 60px;
+  }
+  .benefits{
+    margin-bottom: 100px;
+  }
+  .ourcourses{
+    margin-bottom: 100px;
+  }
+  .ourpricing-container{
+    margin-bottom: 60px;
+  }
 }
 @media (min-width: 1920px) {
   .container {
@@ -1516,5 +1538,27 @@ background: var(--Absolute-White);
   }
   .footer-list-item:not(:last-child) {
     margin-bottom: 20px;
+  }
+  /* margins*/
+  .hero-btn-container{
+    margin-bottom: 150px;
+  }
+  .main-logotips{
+    margin-bottom: 100px;
+  }
+  .hero{
+    margin-bottom: 150px;
+  }
+  .text-and-viewall-btn{
+    margin-bottom: 80px;
+  }
+  .benefits{
+    margin-bottom: 150px;
+  }
+  .ourcourses{
+    margin-bottom: 150px;
+  }
+  .ourpricing-container{
+    margin-bottom: 80px;
   }
 }
