@@ -192,8 +192,7 @@ body {
 
 .Achievements-container-title {}
 
-.OurGoals {
-}
+.OurGoals {}
 
 .title {
   color: var(--Grey-20, #333);
@@ -252,4 +251,64 @@ body {
   gap: 8px;
   border-radius: 6px;
   background: var(--Orange-50);
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1280px;
+  }
+
+  .Skillbridge-container {
+    display: flex;
+    width: 1400px;
+    padding: 0px 60px 40px 60px;
+    align-items: center;
+    gap: 80px;
+    flex-direction: row;
+  }
+
+  .Skillbridge-container-title {
+    flex: 1 0 0;
+    font-size: 38px;
+  }
+
+  .Skillbridge-container-text {
+    font-size: 16px;
+  }
+
+  .Achievements {
+    width: 1280px;
+  }
+
+  .OurGoals {
+    width: 1280px;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;
+  }
+
+  .container-list {
+    width: 1440px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container-list-item {
+    padding: 40px;
+    gap: 24px;
+    align-self: stretch;
+  }
+
 }
