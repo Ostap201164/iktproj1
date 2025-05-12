@@ -55,3 +55,10 @@ button{
 	transition: 300ms;
 	cursor: pointer;
 }
+a{
+	transition: 300ms;
+	cursor: pointer;
+}
+*{
+	transition: 300ms;
+}
