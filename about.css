@@ -8,7 +8,7 @@ body {
   border: none;
 }
 
-.tob-baner {
+/*.tob-baner {
   display: flex;
   padding: 10px 16px;
   justify-content: space-between;
@@ -18,7 +18,7 @@ body {
   color: var(--Absolute-White, #fff);
   font-size: 14px;
   line-height: 1.5;
-  /* 21px */
+  /* 21px 
   border-radius: 6px;
   width: 100%;
 }
@@ -27,7 +27,7 @@ body {
   width: 358px;
   margin: 0 auto;
   margin-bottom: 50px;
-  /*padding: 40px 16px 0px 16px;*/
+  /*padding: 40px 16px 0px 16px;
 }
 
 .top-baner-icon {
@@ -82,16 +82,14 @@ body {
   color: var(--Absolute-White);
   font-size: 14px;
   line-height: 1.5;
-  /* 21px */
+  /* 21px 
 }
 
 .header-btncontainer {
   gap: 20px;
   display: flex;
   align-items: center;
-}
-
-
+}*/
 
 .container {
   width: 358px;
@@ -137,12 +135,12 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
 .text {
   flex: 1 0 0;
-  color: var(--Grey-35, #59595A);
+  color: var(--Grey-35, #59595a);
   font-size: 14px;
   line-height: 1.5;
 }
@@ -156,7 +154,8 @@ body {
   align-self: stretch;
 }
 
-.container-list-subcontainer {}
+.container-list-subcontainer {
+}
 
 .container-list-item {
   display: flex;
@@ -190,9 +189,11 @@ body {
   gap: 6px;
 }
 
-.Achievements-container-title {}
+.Achievements-container-title {
+}
 
-.OurGoals {}
+.OurGoals {
+}
 
 .title {
   color: var(--Grey-20, #333);
@@ -233,8 +234,6 @@ body {
   color: var(--Orange-50);
 }
 
-
-
 .CTA-button-text {
   color: var(--Absolute-White);
   text-align: center;
@@ -267,7 +266,9 @@ body {
   .text {
     font-size: 16px;
   }
-
+  .nav-list {
+    display: flex;
+  }
   .container {
     width: 1280px;
   }
@@ -326,6 +327,4 @@ body {
   .CTA-title {
     font-size: 38px;
   }
-
-  
 }
