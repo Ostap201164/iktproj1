@@ -216,7 +216,9 @@ body {
   background: var(--Absolute-White);
 }
 
-.text-container-CTA {}
+.text-container-CTA {
+  position: relative;
+}
 
 .CTA-title {
   color: var(--Grey-15);
@@ -253,7 +255,19 @@ body {
   background: var(--Orange-50);
 }
 
+.text-container-CTA::after {
+  position: absolute;
+  right: -63px;
+  bottom: -211px;
+  content: "";
+  background-image: url();
+}
+
 @media (min-width: 1440px) {
+  .text {
+    font-size: 16px;
+  }
+
   .container {
     width: 1280px;
   }
@@ -293,22 +307,25 @@ body {
   }
 
   .container-list {
-    width: 1440px;
-    flex-wrap: wrap;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    align-self: stretch;
+    flex-wrap: wrap;
+    width: 1280px;
+    height: 572px;
     list-style: none;
     padding: 0;
     margin: 0;
   }
 
   .container-list-item {
+    width: 550px;
     padding: 40px;
     gap: 24px;
     align-self: stretch;
   }
 
+  .CTA-title {
+    font-size: 38px;
+  }
+
+  
 }
