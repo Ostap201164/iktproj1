@@ -175,7 +175,7 @@ body {
   right: -63px;
   bottom: -211px;
   content: "";
-  background-image: url();
+  background-image: url("img/svg/AbstractDesign.svg");
 }
 
 @media (min-width: 1440px) {
@@ -191,7 +191,6 @@ body {
 
   .Skillbridge-container {
     display: flex;
-    width: 1400px;
     padding: 0px 60px 40px 60px;
     align-items: center;
     gap: 80px;
@@ -208,11 +207,11 @@ body {
   }
 
   .Achievements {
-    width: 1280px;
+    
   }
 
   .OurGoals {
-    width: 1280px;
+    
   }
 
   .text-container {
