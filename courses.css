@@ -219,7 +219,6 @@ footer {
 }
 .li_container_2_texts_container {
   display: flex;
-  padding: 8px 12px;
   align-items: flex-start;
   gap: 10px;
   color: var(--Grey-35);
@@ -246,6 +245,7 @@ footer {
   background: var(--Absolute-White);
 }
 .li_container_2_buttom {
+  padding-bottom: 
   display: flex;
   padding: 14px 16px;
   justify-content: center;
@@ -334,9 +334,17 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
+  padding-bottom: 20px;
 }
 .li_container_2_name {
   color: var(--Grey-15);
   font-size: 16px;
   font-weight: 500;
+}
+.li_container_2_container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  padding: 24px 0px 24px 0px;
 }
