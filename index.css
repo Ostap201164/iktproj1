@@ -265,7 +265,7 @@ h1 {
   transform: scale(1.1);
 }
 .benefits-list-item:hover .benefits-list-item-imgcontainer{
-margin-bottom: 40px;
+
 }
 .benefits-list-item-text {
   color: var(--Grey-30);
