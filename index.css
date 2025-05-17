@@ -65,7 +65,9 @@ body {
   width: 34px;
   height: 34px;
 }
-.header-btncontainer-item-singin{
+.header-btncontainer-item-singin {
+  font-size: 14px;
+  line-height: 1.5;
   padding: 12px 20px;
   border-radius: 6px;
   background-color: var(--Absolute-White);
@@ -109,7 +111,7 @@ body {
   /* 24px */
 }
 
-h1 {
+.h1 {
   color: var(--Grey-10);
   font-size: 16px;
   font-weight: 600;
@@ -261,11 +263,10 @@ h1 {
   letter-spacing: -0.12px;
   margin-bottom: 10px;
 }
-.benefits-list-item:hover{
+.benefits-list-item:hover {
   transform: scale(1.1);
 }
-.benefits-list-item:hover .benefits-list-item-imgcontainer{
-margin-bottom: 40px;
+.benefits-list-item:hover .benefits-list-item-imgcontainer {
 }
 .benefits-list-item-text {
   color: var(--Grey-30);
@@ -917,34 +918,36 @@ margin-bottom: 40px;
 .shadow-animation {
   transition: box-shadow 300ms;
 }
+
 .shadow-animation:hover {
   box-shadow: 5px 4px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 5px 4px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 5px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.orangebg-to-white{
+.orangebg-to-white {
   border: 1px solid transparent;
 }
-.orangebg-to-white:hover{
-background-color: var(--Absolute-White);
-color: var(--Orange-50);
-border-color: var(--Orange-50);
+.orangebg-to-white:hover {
+  background-color: var(--Absolute-White);
+  color: var(--Orange-50);
+  border-color: var(--Orange-50);
 }
-.whitebg-to-orange:hover{
+.whitebg-to-orange:hover {
   background-color: var(--Orange-50);
   color: var(--Absolute-White);
 }
-.green-change{
+.green-change {
   fill: #000;
   transition: 300ms;
 }
-.footer-list-item:hover .green-change{
-fill: rgb(17, 163, 19);
+.footer-list-item:hover .green-change {
+  fill: rgb(17, 163, 19);
 }
-.footer-socialprofiles-imgcontainer:hover{
-background: var(--Absolute-White);
+.footer-socialprofiles-imgcontainer:hover {
+  background: var(--Absolute-White);
 }
-.footer-socialprofiles-imgcontainer:hover .footer-socialprofiles-imgcontainer-icon{
+.footer-socialprofiles-imgcontainer:hover
+  .footer-socialprofiles-imgcontainer-icon {
   fill: #0c06cf;
 }
 
@@ -1227,25 +1230,25 @@ background: var(--Absolute-White);
     padding: 60px 80px 20px 80px;
   }
   /* margins*/
-  .hero-btn-container{
+  .hero-btn-container {
     margin-bottom: 100px;
   }
-  .main-logotips{
+  .main-logotips {
     margin-bottom: 80px;
   }
-  .hero{
+  .hero {
     margin-bottom: 100px;
   }
-  .text-and-viewall-btn{
+  .text-and-viewall-btn {
     margin-bottom: 60px;
   }
-  .benefits{
+  .benefits {
     margin-bottom: 100px;
   }
-  .ourcourses{
+  .ourcourses {
     margin-bottom: 100px;
   }
-  .ourpricing-container{
+  .ourpricing-container {
     margin-bottom: 60px;
   }
 }
@@ -1545,25 +1548,25 @@ background: var(--Absolute-White);
     margin-bottom: 20px;
   }
   /* margins*/
-  .hero-btn-container{
+  .hero-btn-container {
     margin-bottom: 150px;
   }
-  .main-logotips{
+  .main-logotips {
     margin-bottom: 100px;
   }
-  .hero{
+  .hero {
     margin-bottom: 150px;
   }
-  .text-and-viewall-btn{
+  .text-and-viewall-btn {
     margin-bottom: 80px;
   }
-  .benefits{
+  .benefits {
     margin-bottom: 150px;
   }
-  .ourcourses{
+  .ourcourses {
     margin-bottom: 150px;
   }
-  .ourpricing-container{
+  .ourpricing-container {
     margin-bottom: 80px;
   }
 }
