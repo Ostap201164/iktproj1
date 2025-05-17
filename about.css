@@ -7,6 +7,7 @@ body {
 * {
   border: none;
 }
+
 .container {
   width: 358px;
   margin: 0 auto;
@@ -25,6 +26,7 @@ body {
   font-size: 28px;
   font-weight: 600;
   line-height: 1.5;
+  display: flex;
 }
 
 .Skillbridge-container-text {
@@ -70,8 +72,7 @@ body {
   align-self: stretch;
 }
 
-.container-list-subcontainer {
-}
+.container-list-subcontainer {}
 
 .container-list-item {
   display: flex;
@@ -105,11 +106,9 @@ body {
   gap: 6px;
 }
 
-.Achievements-container-title {
-}
+.Achievements-container-title {}
 
-.OurGoals {
-}
+.OurGoals {}
 
 .title {
   color: var(--Grey-20, #333);
@@ -171,25 +170,31 @@ body {
 }
 
 .text-container-CTA::after {
+  background-repeat: no-repeat;
   position: absolute;
   right: -63px;
   bottom: -211px;
   content: "";
-  background-image: url("img/svg/AbstractDesign.svg");
+  background-image: url("./img/svg/AbstractDesign.svg");
+  width: 235px;
+  height: 235px;
 }
 
 @media (min-width: 1440px) {
   .text {
     font-size: 16px;
   }
+
   .nav-list {
     display: flex;
   }
+
   .container {
     width: 1280px;
   }
 
   .Skillbridge-container {
+    width: 1280px;
     display: flex;
     padding: 0px 60px 40px 60px;
     align-items: center;
@@ -206,13 +211,9 @@ body {
     font-size: 16px;
   }
 
-  .Achievements {
-    
-  }
+  .Achievements {}
 
-  .OurGoals {
-    
-  }
+  .OurGoals {}
 
   .text-container {
     display: flex;
@@ -220,6 +221,7 @@ body {
     align-items: flex-start;
     gap: 6px;
     align-self: stretch;
+    margin-bottom: 60px;
   }
 
   .container-list {
@@ -230,6 +232,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 60px;
   }
 
   .container-list-item {
@@ -239,7 +242,90 @@ body {
     align-self: stretch;
   }
 
+  .CTA {
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    gap: 300px;
+    align-self: stretch;
+    border-radius: 10px;
+    height: 120px;
+    flex-direction: row
+  }
+
   .CTA-title {
     font-size: 38px;
+  }
+
+  .text-container-CTA::after {
+    background-image: url("./img/svg/AbstractDesingMedium.svg");
+    width: 362px;
+    height: 362px;
+    justify-content: flex-end;
+    align-items: center;
+    right: -316px;
+    bottom: -174px;
+  }
+
+  .CTA-Abstractlogo-backroundimage {}
+}
+
+@media (min-width: 1920px) {
+  .container {
+    width: 1596px;
+    gap: 80px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .Skillbridge-container {
+    display: flex;
+    padding: 0px 132px 50px 132px;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .Skillbridge-container-title {
+    font-size: 48px;
+  }
+
+  .text-container {
+    margin-bottom: 80px;
+  }
+
+  .container-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    width: 1596px;
+    height: 630px;
+    margin-bottom: 80px;
+  }
+
+  .container-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1 0 0;
+    width: 683px;
+  }
+
+  .CTA {
+    padding: 80px;
+  }
+
+  .text-container-CTA::after {
+    right: -316px;
+    top: -141px;
+    background-image: url("./img/svg/AbstractDesingBig.svg");
   }
 }
