@@ -323,9 +323,15 @@ body {
     padding: 80px;
   }
 
+  .CTA-title {
+    font-size: 48px;
+  }
+  .CTA-title-span{
+
+  }
+
   .text-container-CTA::after {
-    right: -316px;
-    top: -141px;
+    top: -110px;
     background-image: url("./img/svg/AbstractDesingBig.svg");
   }
 }
