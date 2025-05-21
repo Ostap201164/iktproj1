@@ -194,12 +194,12 @@ body {
   }
 
   .Skillbridge-container {
-    width: 1280px;
     display: flex;
     padding: 0px 60px 40px 60px;
     align-items: center;
     gap: 80px;
     flex-direction: row;
+    height: 96px;
   }
 
   .Skillbridge-container-title {
@@ -289,6 +289,7 @@ body {
     padding: 0px 132px 50px 132px;
     align-items: center;
     gap: 100px;
+    height: 108px;
   }
 
   .Skillbridge-container-title {
