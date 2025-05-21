@@ -155,7 +155,7 @@ body {
   width: 284px;
 }
 
-.hero-text-container-item-smalle>span {
+.hero-text-container-item-smalle > span {
   display: block;
 }
 
@@ -275,7 +275,8 @@ body {
   transform: scale(1.1);
 }
 
-.benefits-list-item:hover .benefits-list-item-imgcontainer {}
+.benefits-list-item:hover .benefits-list-item-imgcontainer {
+}
 
 .benefits-list-item-text {
   color: var(--Grey-30);
@@ -656,9 +657,8 @@ body {
 .FAQ-text-container {
   display: flex;
   flex-direction: column;
-  
+
   gap: 8px;
-  
 }
 
 .FAQ-container-button {
@@ -996,7 +996,8 @@ body {
   background: var(--Absolute-White);
 }
 
-.footer-socialprofiles-imgcontainer:hover .footer-socialprofiles-imgcontainer-icon {
+.footer-socialprofiles-imgcontainer:hover
+  .footer-socialprofiles-imgcontainer-icon {
   fill: #0c06cf;
 }
 
@@ -1239,7 +1240,9 @@ body {
     align-self: stretch;
     flex-direction: row;
   }
-
+  .ourpricing-list-item-list {
+    padding: 50px;
+  }
   .text-and-viewall-btn-subcontainer-ourprising {
     display: flex;
     flex-direction: column;
@@ -1300,7 +1303,8 @@ body {
     gap: 80px;
   }
 
-  .FAQ {}
+  .FAQ {
+  }
 
   .FAQ-text {
     font-size: 18px;
@@ -1334,20 +1338,17 @@ body {
     gap: 30px;
   }
 
-
-
   .FAQ-item-card-subcontainer {
     padding: 16px 24px;
     align-self: stretch;
   }
-  .FAQ-item-card-subcontainer-text{
+  .FAQ-item-card-subcontainer-text {
     font-size: 16px;
   }
 
   .FAQ-item-list-item {
-    
     padding: 24px 40px;
-    
+
     gap: 40px;
     align-self: stretch;
   }
@@ -1358,8 +1359,7 @@ body {
   .FAQ-item-card-container-button-img {
     width: 24px;
     height: 24px;
-}
-
+  }
 
   /* footer starts*/
   .desktop-display {
@@ -1697,7 +1697,9 @@ body {
     font-size: 18px;
     line-height: 1.5;
   }
-
+  .ourpricing-list-item-list {
+    padding: 50px;
+  }
   .ourpricing-list {
     display: flex;
     padding: 50px;
@@ -1750,7 +1752,7 @@ body {
     gap: 50px;
     flex-shrink: 0;
   }
-  .FAQ-container-button-text{
+  .FAQ-container-button-text {
     font-size: 18px;
   }
 
@@ -1770,13 +1772,11 @@ body {
   .FAQ-container-card-container {
     padding: 50px;
     gap: 50px;
-    
   }
 
-
-.FAQ-item-card-container-text{
-  font-size: 20px;
-}
+  .FAQ-item-card-container-text {
+    font-size: 20px;
+  }
   .FAQ-container-card-text {
     font-size: 18px;
   }
@@ -1786,7 +1786,7 @@ body {
     gap: 50px;
     align-self: stretch;
   }
-  .FAQ-item-list-item-text{
+  .FAQ-item-list-item-text {
     font-size: 20px;
   }
 
@@ -1798,7 +1798,7 @@ body {
   .FAQ-item-card-container-button-img {
     width: 28px;
     height: 28px;
-}
+  }
 
   /* footer starts*/
   .desktop-display {
