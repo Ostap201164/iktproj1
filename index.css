@@ -923,6 +923,9 @@ body {
   border-radius: 6px;
   background: var(--Orange-95);
 }
+.FAQ-stabiliti{
+  
+}
 
 .container {
   width: 358px;
@@ -1306,7 +1309,7 @@ body {
   }
 
   .FAQ-title {
-    font-size: 48px;
+    font-size: 38px;
   }
 
   .FAQ-container {
